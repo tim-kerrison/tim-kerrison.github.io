@@ -2578,7 +2578,19 @@
 			}
 
 			.features > li:nth-child(5) {
-				background-color: rgba(0, 0, 0, 0.175);
+				/*background-color: rgba(255, 255, 255, 0.135); /*0.035*/
+				background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/tk-banner.jpg");
+				background-position: top;
+				background-size: cover;
+    		width: 100%;
+				padding-top:8em;
+				padding-bottom:6em;
+			}
+
+			.features > li:nth-child(5) .content {
+				max-width: 40em;
+				margin: auto;
+				text-align:center;
 			}
 
 			.features > li:nth-child(6) {
@@ -2941,7 +2953,7 @@
 						margin-left: 0.25em;
 
 
-						
+
 					}
 
 					#header > a:last-child {
@@ -3282,8 +3294,9 @@
 		#banner button,
 		#banner .button {
 			background-color: transparent;
-			border-color: #fff;
+			border:none;
 			color: #ffffff !important;
+			background-color: rgba(255, 255, 255, 0.4);
 		}
 
 			#banner input[type="submit"]:hover,
@@ -3291,7 +3304,7 @@
 			#banner input[type="button"]:hover,
 			#banner button:hover,
 			#banner .button:hover {
-				background-color: rgba(255, 255, 255, 0.1);
+				background-color: rgba(255, 255, 255, 0.45);
 			}
 
 			#banner input[type="submit"]:active,
@@ -3299,7 +3312,7 @@
 			#banner input[type="button"]:active,
 			#banner button:active,
 			#banner .button:active {
-				background-color: rgba(255, 255, 255, 0.2);
+				background-color: rgba(255, 255, 255, 0.45);
 			}
 
 			#banner input[type="submit"].icon:before,
@@ -3897,7 +3910,7 @@
 			.wrapper.style2 input[type="button"],
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
-				background-color: transparent;
+				background-color: rgba(0, 0, 0, 0.2);
 				border-color: rgba(0, 0, 0, 0.3);
 				color: #ffffff !important;
 			}
@@ -3907,7 +3920,7 @@
 				.wrapper.style2 input[type="button"]:hover,
 				.wrapper.style2 button:hover,
 				.wrapper.style2 .button:hover {
-					background-color: rgba(0, 0, 0, 0.1);
+					background-color: rgba(0, 0, 0, 0.3);
 				}
 
 				.wrapper.style2 input[type="submit"]:active,
@@ -4110,7 +4123,7 @@
 /* Footer */
 
 	#footer {
-		background-color: #263238;
+		background-color: #263238 ; /*252525;*/
 		color: #e5e5e8;
 		padding: 5em 0 3em 0 ;
 	}
